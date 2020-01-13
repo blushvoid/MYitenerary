@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700&display=swap');
+
+body {
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../assets/background_desktop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+@media only screen and (max-width: 560px) {
+  .call-to-action {
+    background-image: url('../assets/background_mobile.jpg');
+  }
+}
+
+.CTA {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+.menu {
+  color: white;
+}
+
+.logo {
+    width: 70%;
+  }
+  @media only screen and (max-width: 560px) {
+    .logo {
+      width: 100%;
+    }
+  }  
+  
+  
+  .sideMenu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #burguerMenu {
+    height: 30px;
+    width: 30px;
+  }
+  
+  
+  p {
+    text-align: center;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .links {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a {
+    margin-left: 10px;
+  }
+  #home {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* slider */
+  .oneSlide img {
+    height: 100px;
+    width: 120px;
+    margin: 2px;
+  }
+  .topImages {
+    display: flex;
+    justify-content: center;
+  }
+  .botImages {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .activitiestwo {
+    text-align: center;
+  }
+ 
+
