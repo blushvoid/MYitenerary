@@ -4,7 +4,7 @@ import {Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import styled from 'styled-components';
 import { faUser, faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// <FontAwesome icon={faUser} />
+
 
 const Styles = styled.div `
     .navbar {
@@ -19,8 +19,6 @@ const Styles = styled.div `
         }
     }
     `;
-
-//console.log({faUser})
 
 
 export class Header extends React.Component {

@@ -59,8 +59,6 @@ const Styled = styled.div `
   }
 
 }
-
-
           `;
 
 function CitiesCarousel() {
@@ -106,10 +104,7 @@ function CitiesCarousel() {
           <Row>
             <Col xs={5}>
               <Card style={{}}>
-                <Card.Img
-                  className="img-responsive"
-                  src={CityImages.newyork}
-                  alt="New York"/>
+                <Card.Img className="img-responsive" src={CityImages.newyork} alt="New York"/>
                 <Card.Body>
                   <Card.Title>New York</Card.Title>
                 </Card.Body>
@@ -117,10 +112,7 @@ function CitiesCarousel() {
             </Col>
             <Col xs={5}>
               <Card style={{}}>
-                <Card.Img
-                  className="img-responsive"
-                  src={CityImages.paris}
-                  alt="Paris"/>
+                <Card.Img className="img-responsive" src={CityImages.paris} alt="Paris"/>
                 <Card.Body>
                   <Card.Title>Paris</Card.Title>
                 </Card.Body>
@@ -132,10 +124,7 @@ function CitiesCarousel() {
           <Row>
             <Col xs={5}>
               <Card style={{}}>
-                <Card.Img
-                  className="img-responsive"
-                  src={CityImages.dublin}
-                  alt="Dublin"/>
+                <Card.Img className="img-responsive" src={CityImages.dublin} alt="Dublin"/>
                 <Card.Body>
                   <Card.Title>Dublin</Card.Title>
                 </Card.Body>
@@ -143,10 +132,7 @@ function CitiesCarousel() {
             </Col>
             <Col xs={5}>
               <Card style={{}}>
-                <Card.Img
-                  className="img-responsive"
-                  src={CityImages.rome}
-                  alt="Rome"/>
+                <Card.Img className="img-responsive" src={CityImages.rome} alt="Rome"/>
                 <Card.Body>
                   <Card.Title>Rome</Card.Title>
                 </Card.Body>
@@ -156,10 +142,7 @@ function CitiesCarousel() {
           <Row>
             <Col xs={5}>
               <Card style={{}}>
-                <Card.Img
-                  className="img-responsive"
-                  src={CityImages.berlin}
-                  alt="Berlin"/>
+                <Card.Img className="img-responsive" src={CityImages.berlin} alt="Berlin"/>
                 <Card.Body>
                   <Card.Title>Berlin</Card.Title>
                 </Card.Body>
@@ -167,10 +150,7 @@ function CitiesCarousel() {
             </Col>
             <Col xs={5}>
               <Card style={{}}>
-                <Card.Img
-                  className="img-responsive"
-                  src={CityImages.prague}
-                  alt="Prague"/>
+                <Card.Img className="img-responsive" src={CityImages.prague} alt="Prague"/>
                 <Card.Body>
                   <Card.Title>Prague</Card.Title>
                 </Card.Body>
@@ -182,10 +162,7 @@ function CitiesCarousel() {
           <Row>
             <Col xs={5}>
               <Card style={{}}>
-                <Card.Img
-                  className="img-responsive"
-                  src={CityImages.budapest}
-                  alt="Budapest"/>
+                <Card.Img className="img-responsive" src={CityImages.budapest} alt="Budapest"/>
                 <Card.Body>
                   <Card.Title>Budapest</Card.Title>
                 </Card.Body>
@@ -193,10 +170,7 @@ function CitiesCarousel() {
             </Col>
             <Col xs={5}>
               <Card style={{}}>
-                <Card.Img
-                  className="img-responsive"
-                  src={CityImages.madrid}
-                  alt="Madrid"/>
+                <Card.Img className="img-responsive" src={CityImages.madrid} alt="Madrid"/>
                 <Card.Body>
                   <Card.Title>Madrid</Card.Title>
                 </Card.Body>
@@ -206,10 +180,7 @@ function CitiesCarousel() {
           <Row>
             <Col xs={5}>
               <Card style={{}}>
-                <Card.Img
-                  className="img-responsive"
-                  src={CityImages.lisbon}
-                  alt="Lisbon"/>
+                <Card.Img className="img-responsive" src={CityImages.lisbon} alt="Lisbon"/>
                 <Card.Body>
                   <Card.Title>Lisbon</Card.Title>
                 </Card.Body>
@@ -217,10 +188,7 @@ function CitiesCarousel() {
             </Col>
             <Col xs={5}>
               <Card style={{}}>
-                <Card.Img
-                  className="img-responsive"
-                  src={CityImages.london}
-                  alt="London"/>
+                <Card.Img className="img-responsive" src={CityImages.london} alt="London"/>
                 <Card.Body>
                   <Card.Title>London</Card.Title>
                 </Card.Body>

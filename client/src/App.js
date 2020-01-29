@@ -5,7 +5,7 @@ import Landing from './components/Landing';
 import Cities from './components/Cities';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+import { connect } from "react-redux";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
@@ -18,7 +18,6 @@ function App() {
       <Switch />
         <Route exact path='/' component={Landing} />
         <Route exact path='/' component={Cities} />
-
     </div>
     </BrowserRouter>
   );

@@ -1,8 +1,9 @@
 import React from 'react';
 import HomeButton from '../assets/homeIcon.png';
-import ItineraryStructure from "../components/itinerarycomponent";
-import {Link} from "react-router-dom";
+import ItineraryStructure from '../components/itinerarycomponent';
+import {Link} from 'react-router-dom';
 import Spinner from 'react-bootstrap/Spinner';
+import { connect } from 'react-redux';
 
 class itineraries extends React.Component {
   constructor(props) {
